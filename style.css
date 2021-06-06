@@ -1,3 +1,12 @@
+body {
+    background-image: url('images/Header-BG.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% -35%;
+    padding: 51px;
+    /* margin: 200px; */
+}
+
 .header-user {
     float: right;
     position: relative;
