@@ -1,0 +1,24 @@
+.header-user {
+    float: right;
+    position: relative;
+}
+
+.top-nav-gap {
+    margin-right: 80px;
+}
+
+.nav-gap {
+    margin-right: 30px;
+}
+
+.nav-color {
+    color: #475e74;
+}
+
+.number-color {
+    color: #f38035;
+}
+
+.logo {
+    height: 10vh;
+}
