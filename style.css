@@ -3,9 +3,17 @@ body {
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: 100% -35%;
-    padding: 51px;
-    /* margin: 200px; */
+    background-position: 30px 200px;
+    padding: 250px;
+    max-width: 100%;
+    height: auto;
 }
+
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
 
 .header-user {
     float: right;
@@ -30,4 +38,31 @@ body {
 
 .logo {
     height: 10vh;
+}
+
+.search-bar {
+    width: 100 px;
+}
+
+.header-text {
+    text-position: center;
+}
+
+.header-text-h1 {
+    font-weight: bold;
+    color: #00512f;
+}
+
+.header-text-p {
+    color: #00512f;
+}
+
+.header-text-h2 {
+    color: #f27c30;
+    font-weight: bold;
+}
+
+.header-text-h3 {
+    color: #f27c30;
+    font-weight: bold;
 }
