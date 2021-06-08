@@ -4,9 +4,13 @@ body {
     /* background-attachment: fixed; */
     background-size: 100% -35%;
     background-position: 30px 200px;
-    padding: 250px;
+    /* padding: 250px; */
     max-width: 100%;
     height: auto;
+}
+
+.header-img {
+    padding: 250px;
 }
 
 
@@ -65,4 +69,20 @@ body {
 .header-text-h3 {
     color: #f27c30;
     font-weight: bold;
+}
+
+.contact-part {
+    color: white;
+    background-color: #004c2c;
+}
+
+.contact-img {
+    background-image: url(images/bgExport.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 100% -35%;
+    background-position: 30px 200px;
+    /* padding: 250px; */
+    max-width: 100%;
+    height: auto;
 }
