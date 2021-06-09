@@ -1,23 +1,6 @@
-body {
-    background-image: url('images/Header-BG.jpg');
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: 100% -35%;
-    background-position: 30px 200px;
-    /* padding: 250px; */
-    max-width: 100%;
-    height: auto;
-}
-
 .header-img {
     padding: 250px;
 }
-
-
-/* img {
-    width: 100%;
-    height: auto;
-} */
 
 .header-user {
     float: right;
@@ -71,18 +54,23 @@ body {
     font-weight: bold;
 }
 
-.contact-part {
+.contact-part-top {
     color: white;
     background-color: #004c2c;
+}
+
+.contact-part-bottom {
+    color: white;
 }
 
 .contact-img {
     background-image: url(images/bgExport.png);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    /* background-size: 100% -35%;
-    background-position: 30px 200px;
-    /* padding: 250px; */
     max-width: 100%;
     height: auto;
+}
+
+.ban-img {
+    background-image: url(images);
+    /* width: 20px; */
 }
