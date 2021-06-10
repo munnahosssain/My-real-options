@@ -28,7 +28,7 @@
 }
 
 .search-bar {
-    width: 100 px;
+    margin-top: -40px;
 }
 
 .header-text {
@@ -70,7 +70,20 @@
     height: auto;
 }
 
-.ban-img {
-    background-image: url(images);
-    /* width: 20px; */
+.identity-section {
+    background-color: #fbf7f4;
+}
+
+.table-style {
+    border: 7px solid white;
+    background-color: #f3f5f4;
+}
+
+.client-review {
+    background-color: #014c2d;
+    padding: 100px;
+}
+
+.client-part {
+    color: white;
 }
