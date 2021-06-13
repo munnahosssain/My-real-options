@@ -2,17 +2,25 @@
     padding: 250px;
 }
 
+.top-gap {
+    margin-top: 70px;
+}
+
 .header-user {
     float: right;
     position: relative;
 }
 
 .top-nav-gap {
-    margin-right: 80px;
+    margin-left: 50px;
 }
 
 .nav-gap {
     margin-right: 30px;
+}
+
+.ban-contact {
+    margin-left: 30px;
 }
 
 .nav-color {
@@ -31,27 +39,9 @@
     margin-top: -40px;
 }
 
-.header-text {
-    text-position: center;
-}
-
-.header-text-h1 {
+.shared-text-style {
     font-weight: bold;
     color: #00512f;
-}
-
-.header-text-p {
-    color: #00512f;
-}
-
-.header-text-h2 {
-    color: #f27c30;
-    font-weight: bold;
-}
-
-.header-text-h3 {
-    color: #f27c30;
-    font-weight: bold;
 }
 
 .contact-part-top {
@@ -59,7 +49,8 @@
     background-color: #004c2c;
 }
 
-.contact-part-bottom {
+.contact-part-bottom,
+.client-part {
     color: white;
 }
 
@@ -70,7 +61,8 @@
     height: auto;
 }
 
-.identity-section {
+.identity-section,
+.bottom-nav {
     background-color: #fbf7f4;
 }
 
@@ -82,10 +74,6 @@
 .client-review {
     background-color: #014c2d;
     padding: 100px;
-}
-
-.client-part {
-    color: white;
 }
 
 .blog-button {
