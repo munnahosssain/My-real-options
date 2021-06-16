@@ -20,7 +20,7 @@
 }
 
 .ban-contact {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .nav-color {
@@ -36,7 +36,14 @@
 }
 
 .search-bar {
-    margin-top: -40px;
+    margin-top: -15px;
+    background-color: #ebf3f7;
+}
+
+.search-button {
+    color: #fff;
+    background-color: #f27321;
+    border: none;
 }
 
 .shared-text-style {
@@ -45,8 +52,9 @@
 }
 
 .contact-part-top {
+    background-image: url(images/bgExportTop.png);
     color: white;
-    background-color: #004c2c;
+    margin-bottom: 0px;
 }
 
 .contact-part-bottom,
@@ -57,13 +65,19 @@
 .contact-img {
     background-image: url(images/bgExport.png);
     background-repeat: no-repeat;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    color: white;
 }
 
 .identity-section,
 .bottom-nav {
     background-color: #fbf7f4;
+}
+
+.table-col {
+    border-right: 1px solid #d4d0d0;
+    border-left: 1px solid #d4d0d0;
 }
 
 .table-style {
@@ -79,6 +93,13 @@
 .blog-button {
     background: linear-gradient(30deg, #f27322, #db6012), linear-gradient(0deg, #f27322, #db6012);
     color: #ffffff;
+    border: none;
+    border-radius: none;
+}
+
+.FAQs {
+    border: 1px solid red;
+    border-radius: 10px;
 }
 
 .icons {
