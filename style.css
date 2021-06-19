@@ -91,7 +91,7 @@
 }
 
 .blog-button {
-    background: linear-gradient(30deg, #f27322, #db6012), linear-gradient(0deg, #f27322, #db6012);
+    background: linear-gradient(30deg, #ec8e54, #db6012);
     color: #ffffff;
     border: none;
     border-radius: none;
@@ -106,4 +106,9 @@
     margin-right: 30px;
     color: #f78031;
     font-size: 35px;
+}
+
+.img-control {
+    height: 500px;
+    width: 350px;
 }
