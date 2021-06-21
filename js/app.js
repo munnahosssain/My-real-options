@@ -7,7 +7,7 @@ $(function() {
         infinite: false,
         prevArrow: '<span class="slick-prev"><i class="fas fa-arrow-left"></i></span>',
         nextArrow: '<span class="slick-next"><i class="fas fa-arrow-right"></i></span>',
-        arrows: true,
+        // arrows: true,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
@@ -15,21 +15,22 @@ $(function() {
                     slidesToScroll: 1,
                     infinite: false,
                     arrows: true,
-                    dots: true
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 990,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrow: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrow: false,
                 }
             }
             // You can unslick at a given breakpoint now by adding:
