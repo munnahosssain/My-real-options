@@ -54,7 +54,7 @@
 .contact-part-top {
     background-image: url(images/bgExportTop.png);
     color: white;
-    margin-bottom: none;
+    margin-bottom: -1.5px;
 }
 
 .contact-part-bottom,
@@ -95,6 +95,7 @@
     color: #ffffff;
     border: none;
     border-radius: none;
+    outline: none;
 }
 
 .FAQs {
